@@ -1,0 +1,8 @@
+name: mansui_companion
+display_name: 满穗
+desc: 本人私聊与白名单群的满穗文字伙伴
+author: local_project
+version: 0.1.0
+support_platforms:
+  - aiocqhttp
+astrbot_version: "==4.29.3"

@@ -1,0 +1,47 @@
+# Only portable project files are versioned. Runtime data stays on this computer.
+/*
+!/.gitignore
+!/README.md
+!/*.cmd
+!/config/
+!/docs/
+!/plugins/
+!/scripts/
+!/tests/
+!/app/
+
+# Shared configuration templates and dependency records only.
+/config/*
+!/config/mansui.example.json
+!/config/versions.lock.json
+
+# Preserve the resolved AstrBot dependency lock, not downloaded applications.
+/app/*
+!/app/AstrBot/
+/app/AstrBot/*
+!/app/AstrBot/uv.lock
+
+# Credentials, local state, databases, logs, caches and editor files.
+.env
+.env.*
+!.env.example
+*.local.*
+*secrets*
+*.pem
+*.key
+*.p12
+*.pfx
+*.sqlite*
+*.db
+*.db-*
+*.log
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.venv/
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
+

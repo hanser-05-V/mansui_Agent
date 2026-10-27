@@ -1,0 +1,17 @@
+{
+  "owner_qq": "",
+  "bot_qq": "",
+  "allowed_groups": [],
+  "model": "deepseek-flash",
+  "base_url": "https://api.deepseek.com",
+  "max_concurrency": 2,
+  "queue_size": 10,
+  "chat_max_tokens": 512,
+  "long_answer_max_tokens": 1024,
+  "history_limit": 24,
+  "raw_retention_days": 30,
+  "optional_stale_seconds": 120,
+  "cost_reminder_cny": null,
+  "pricing": null,
+  "ready": false
+}

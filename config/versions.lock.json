@@ -1,0 +1,733 @@
+{
+  "plugin_hashes": {
+    "deepseek.py": "f9b527ff98216d8d2060cac25b6fe025a242cf41114b28858ba2a8851f206c9b",
+    "affinity.py": "d5e34e7f80ab8e89e67dc5a4deb71f6f5d360bd14047e89b7b5129babc2e815e",
+    "settings.py": "5bf0bdace8664d9b937361bb994b8898ebb4f253d89f40bfe1f6890f753d2b24",
+    "__init__.py": "dbbfa011ffb715e50ae91e20cdffc2c0c95d8279d1baf6960544908a89759d85",
+    "scheduler.py": "2fce8e99e0fa4969497c5073cc55d5cd8648b21918e7a90cbe66866acc53c737",
+    "domain.py": "1f8899e17e8a4e5699c390e6fd583af39dc8fc5eab559b0092ac933591359160",
+    "memory.py": "359f8c880e592c326ff28d30a5a8ea4d6e299a9a2f03f8889711c557b9dcdfb4",
+    "main.py": "574413d283a8798aed1f890e247a6158a28d7f767ca8fb5100c65011500457e1",
+    "onebot.py": "543de147769005e43a9f215a9c68cd862687e6cd3966a2caa252bfe7a2714d47",
+    "commands.py": "aaf25e45e4083384ac7c5b1e21f46c27c6bbf22abe4c8ba46155b7be42756726",
+    "persona-sources.md": "daf25817580c58b25329c0185faa45a34da248d4cb7c3c071fad4e38cecc576b",
+    "schema.sql": "18eb69617f422b0cc8f85b1c8c1ce6bf067ee47dfcbc07645169636beda1ff62",
+    "policy.py": "8e2b57e94bc1dd23197856616b61881c253581fbbf464986f8dca40e7007a897",
+    "service.py": "03c06bdaee110cb611d21ef0dccb5f6645cf0e2550b38ff25e6af1e13eb98a80",
+    "store.py": "8322797d7cbac8f3d02ca7216839f8b812277efb7593c7932bea8440baff4703",
+    "usage.py": "ceece3b47bd3b6c441f3d95143374d21b751398b07d0b883c457434c67c31686",
+    "metadata.yaml": "ac904421b1bdb92ed802a271c427d2a7e1640ac7f886f5a9ab3ad84611846d12",
+    "persona.md": "cc43e85e138be17d7d8c10ea93e80154b0937b4720e5367d88500bdeebcb8659"
+  },
+  "python": "3.12.16",
+  "created_utc": "2026-10-27T07:33:36.0354615Z",
+  "dependency_lock_origin": "locally_resolved_from_release_pyproject",
+  "assets": [
+    {
+      "name": "astrbot",
+      "release_digest_verified": false,
+      "sha256": "4f7187273a3fa3e9bea327e1338dcff7567af5ab095c4847da12452ad22d8508",
+      "url": "https://github.com/AstrBotDevs/AstrBot/archive/refs/tags/v4.29.3.zip",
+      "version": "v4.29.3"
+    },
+    {
+      "name": "dashboard",
+      "release_digest_verified": true,
+      "sha256": "a09f560c4140b930180f63a4929c885da80e24fb9bbda56619727bd25e985a11",
+      "url": "https://github.com/AstrBotDevs/AstrBot/releases/download/v4.29.3/AstrBot-v4.29.3-dashboard.zip",
+      "version": "v4.29.3"
+    },
+    {
+      "name": "napcat",
+      "release_digest_verified": true,
+      "sha256": "6801f93e533846cea05f4f531874a0e84371ab2331c5585b57cd7e3b869cf96b",
+      "url": "https://github.com/NapNeko/NapCatQQ/releases/download/v4.18.41/NapCat.Shell.zip",
+      "version": "v4.18.41"
+    },
+    {
+      "name": "uv",
+      "release_digest_verified": true,
+      "sha256": "a2a8820d5eea32f08ef467ef3b7f66883a9b076d5737a2fc2fbb5f458d1bb50f",
+      "url": "https://github.com/astral-sh/uv/releases/download/0.13.6/uv-x86_64-pc-windows-msvc.zip",
+      "version": "0.13.6"
+    }
+  ],
+  "astrbot_lock_sha256": "bf6b50e74ed6384a49a5f6f28beb34ccbfcfb708888493a11c26d06c76d44acf",
+  "runtime": {
+    "python": "3.12.16",
+    "packages": [
+      {
+        "name": "aiocqhttp",
+        "version": "1.4.4"
+      },
+      {
+        "name": "aiodocker",
+        "version": "0.27.0"
+      },
+      {
+        "name": "aiofiles",
+        "version": "25.1.0"
+      },
+      {
+        "name": "aiohappyeyeballs",
+        "version": "2.7.1"
+      },
+      {
+        "name": "aiohttp",
+        "version": "3.14.5"
+      },
+      {
+        "name": "aiosignal",
+        "version": "1.4.0"
+      },
+      {
+        "name": "aiosqlite",
+        "version": "0.22.1"
+      },
+      {
+        "name": "annotated-doc",
+        "version": "0.0.5"
+      },
+      {
+        "name": "annotated-types",
+        "version": "0.8.0"
+      },
+      {
+        "name": "anthropic",
+        "version": "2.3.0"
+      },
+      {
+        "name": "anyio",
+        "version": "4.15.1"
+      },
+      {
+        "name": "APScheduler",
+        "version": "3.11.3"
+      },
+      {
+        "name": "argcomplete",
+        "version": "3.7.2"
+      },
+      {
+        "name": "attrs",
+        "version": "26.1.0"
+      },
+      {
+        "name": "beautifulsoup4",
+        "version": "4.15.0"
+      },
+      {
+        "name": "blinker",
+        "version": "1.9.0"
+      },
+      {
+        "name": "certifi",
+        "version": "2026.10.23"
+      },
+      {
+        "name": "cffi",
+        "version": "2.1.1"
+      },
+      {
+        "name": "chardet",
+        "version": "5.1.0"
+      },
+      {
+        "name": "charset-normalizer",
+        "version": "3.5.2"
+      },
+      {
+        "name": "click",
+        "version": "8.5.0"
+      },
+      {
+        "name": "cobble",
+        "version": "0.1.4"
+      },
+      {
+        "name": "colorama",
+        "version": "0.4.6"
+      },
+      {
+        "name": "commitizen",
+        "version": "4.19.3"
+      },
+      {
+        "name": "coverage",
+        "version": "7.17.0"
+      },
+      {
+        "name": "cryptography",
+        "version": "50.0.2"
+      },
+      {
+        "name": "dashscope",
+        "version": "2.0.2"
+      },
+      {
+        "name": "decli",
+        "version": "0.6.3"
+      },
+      {
+        "name": "defusedxml",
+        "version": "0.7.1"
+      },
+      {
+        "name": "Deprecated",
+        "version": "1.3.1"
+      },
+      {
+        "name": "dingtalk-stream",
+        "version": "0.24.3"
+      },
+      {
+        "name": "distro",
+        "version": "1.9.0"
+      },
+      {
+        "name": "docstring_parser",
+        "version": "0.18.0"
+      },
+      {
+        "name": "et_xmlfile",
+        "version": "2.0.0"
+      },
+      {
+        "name": "faiss-cpu",
+        "version": "1.15.1"
+      },
+      {
+        "name": "fastapi",
+        "version": "0.162.0"
+      },
+      {
+        "name": "filelock",
+        "version": "4.2.4"
+      },
+      {
+        "name": "filetype",
+        "version": "1.2.0"
+      },
+      {
+        "name": "Flask",
+        "version": "3.1.3"
+      },
+      {
+        "name": "frozenlist",
+        "version": "1.8.0"
+      },
+      {
+        "name": "google-auth",
+        "version": "2.62.0"
+      },
+      {
+        "name": "google-genai",
+        "version": "2.33.0"
+      },
+      {
+        "name": "greenlet",
+        "version": "3.5.6"
+      },
+      {
+        "name": "h11",
+        "version": "0.16.0"
+      },
+      {
+        "name": "h2",
+        "version": "4.4.1"
+      },
+      {
+        "name": "hpack",
+        "version": "4.2.0"
+      },
+      {
+        "name": "httpcore",
+        "version": "1.0.9"
+      },
+      {
+        "name": "httpcore2",
+        "version": "2.16.0"
+      },
+      {
+        "name": "httpx",
+        "version": "0.28.1"
+      },
+      {
+        "name": "httpx-sse",
+        "version": "0.4.3"
+      },
+      {
+        "name": "httpx2",
+        "version": "2.16.0"
+      },
+      {
+        "name": "Hypercorn",
+        "version": "0.18.0"
+      },
+      {
+        "name": "hyperframe",
+        "version": "6.1.0"
+      },
+      {
+        "name": "idna",
+        "version": "3.20"
+      },
+      {
+        "name": "iniconfig",
+        "version": "2.3.1"
+      },
+      {
+        "name": "itsdangerous",
+        "version": "2.2.0"
+      },
+      {
+        "name": "jieba",
+        "version": "0.42.1"
+      },
+      {
+        "name": "Jinja2",
+        "version": "3.1.6"
+      },
+      {
+        "name": "jiter",
+        "version": "0.18.0"
+      },
+      {
+        "name": "jsonschema",
+        "version": "4.26.0"
+      },
+      {
+        "name": "jsonschema-specifications",
+        "version": "2025.9.1"
+      },
+      {
+        "name": "lark-oapi",
+        "version": "1.7.5"
+      },
+      {
+        "name": "loguru",
+        "version": "0.7.3"
+      },
+      {
+        "name": "lxml",
+        "version": "6.1.3"
+      },
+      {
+        "name": "mammoth",
+        "version": "1.13.0"
+      },
+      {
+        "name": "markdown-it-py",
+        "version": "4.2.0"
+      },
+      {
+        "name": "markdownify",
+        "version": "1.2.3"
+      },
+      {
+        "name": "markitdown-no-magika",
+        "version": "0.1.2"
+      },
+      {
+        "name": "MarkupSafe",
+        "version": "3.0.4"
+      },
+      {
+        "name": "mcp",
+        "version": "1.30.0"
+      },
+      {
+        "name": "mdurl",
+        "version": "0.1.2"
+      },
+      {
+        "name": "multidict",
+        "version": "7.2.1"
+      },
+      {
+        "name": "numpy",
+        "version": "2.5.4"
+      },
+      {
+        "name": "openai",
+        "version": "3.39.0"
+      },
+      {
+        "name": "openpyxl",
+        "version": "3.1.5"
+      },
+      {
+        "name": "opentelemetry-api",
+        "version": "1.45.1"
+      },
+      {
+        "name": "opentelemetry-sdk",
+        "version": "1.45.1"
+      },
+      {
+        "name": "opentelemetry-semantic-conventions",
+        "version": "0.66b1"
+      },
+      {
+        "name": "optionaldict",
+        "version": "0.1.2"
+      },
+      {
+        "name": "ormsgpack",
+        "version": "1.13.0"
+      },
+      {
+        "name": "packaging",
+        "version": "26.3"
+      },
+      {
+        "name": "pandas",
+        "version": "3.1.0"
+      },
+      {
+        "name": "pillow",
+        "version": "13.0.0"
+      },
+      {
+        "name": "pip",
+        "version": "26.2.2"
+      },
+      {
+        "name": "pluggy",
+        "version": "1.7.0"
+      },
+      {
+        "name": "priority",
+        "version": "2.0.0"
+      },
+      {
+        "name": "prompt_toolkit",
+        "version": "3.0.53"
+      },
+      {
+        "name": "propcache",
+        "version": "0.5.4"
+      },
+      {
+        "name": "psutil",
+        "version": "7.1.3"
+      },
+      {
+        "name": "py-cord",
+        "version": "2.8.1"
+      },
+      {
+        "name": "pyasn1",
+        "version": "0.6.5"
+      },
+      {
+        "name": "pyasn1_modules",
+        "version": "0.4.2"
+      },
+      {
+        "name": "pycparser",
+        "version": "3.12"
+      },
+      {
+        "name": "pycryptodome",
+        "version": "4.2.0"
+      },
+      {
+        "name": "pydantic",
+        "version": "2.14.1"
+      },
+      {
+        "name": "pydantic-settings",
+        "version": "2.16.1"
+      },
+      {
+        "name": "pydantic_core",
+        "version": "2.50.1"
+      },
+      {
+        "name": "pydub",
+        "version": "0.25.1"
+      },
+      {
+        "name": "Pygments",
+        "version": "2.21.0"
+      },
+      {
+        "name": "PyJWT",
+        "version": "2.15.1"
+      },
+      {
+        "name": "PyOTP",
+        "version": "2.10.0"
+      },
+      {
+        "name": "pypdf",
+        "version": "6.21.2"
+      },
+      {
+        "name": "pyromark",
+        "version": "0.10.3"
+      },
+      {
+        "name": "PySocks",
+        "version": "1.7.1"
+      },
+      {
+        "name": "pytest",
+        "version": "9.1.1"
+      },
+      {
+        "name": "pytest-asyncio",
+        "version": "1.4.1"
+      },
+      {
+        "name": "pytest-cov",
+        "version": "7.1.0"
+      },
+      {
+        "name": "python-dateutil",
+        "version": "3.0.0"
+      },
+      {
+        "name": "python-docx",
+        "version": "1.2.0"
+      },
+      {
+        "name": "python-dotenv",
+        "version": "1.2.4"
+      },
+      {
+        "name": "python-multipart",
+        "version": "0.0.32"
+      },
+      {
+        "name": "python-ripgrep",
+        "version": "0.0.8"
+      },
+      {
+        "name": "python-socks",
+        "version": "3.1.1"
+      },
+      {
+        "name": "python-telegram-bot",
+        "version": "22.8"
+      },
+      {
+        "name": "pywin32",
+        "version": "312"
+      },
+      {
+        "name": "PyYAML",
+        "version": "6.0.3"
+      },
+      {
+        "name": "qq-botpy",
+        "version": "1.2.1"
+      },
+      {
+        "name": "qrcode",
+        "version": "8.2"
+      },
+      {
+        "name": "Quart",
+        "version": "0.22.0"
+      },
+      {
+        "name": "questionary",
+        "version": "2.1.1"
+      },
+      {
+        "name": "rank-bm25",
+        "version": "0.2.2"
+      },
+      {
+        "name": "referencing",
+        "version": "0.37.0"
+      },
+      {
+        "name": "regex",
+        "version": "2026.9.29"
+      },
+      {
+        "name": "reportlab",
+        "version": "5.1.0"
+      },
+      {
+        "name": "requests",
+        "version": "2.34.2"
+      },
+      {
+        "name": "requests-toolbelt",
+        "version": "1.0.0"
+      },
+      {
+        "name": "rich",
+        "version": "15.0.0"
+      },
+      {
+        "name": "rpds-py",
+        "version": "2026.9.1"
+      },
+      {
+        "name": "ruff",
+        "version": "0.15.22"
+      },
+      {
+        "name": "shellingham",
+        "version": "1.5.4"
+      },
+      {
+        "name": "shipyard-neo-sdk",
+        "version": "0.2.0"
+      },
+      {
+        "name": "shipyard-python-sdk",
+        "version": "0.2.4"
+      },
+      {
+        "name": "silk-python",
+        "version": "0.2.9"
+      },
+      {
+        "name": "six",
+        "version": "1.17.0"
+      },
+      {
+        "name": "slack_sdk",
+        "version": "3.45.0"
+      },
+      {
+        "name": "sniffio",
+        "version": "1.3.1"
+      },
+      {
+        "name": "socksio",
+        "version": "1.0.0"
+      },
+      {
+        "name": "soupsieve",
+        "version": "3.0.4"
+      },
+      {
+        "name": "SQLAlchemy",
+        "version": "2.1.6"
+      },
+      {
+        "name": "sqlmodel",
+        "version": "0.0.48"
+      },
+      {
+        "name": "sse-starlette",
+        "version": "3.6.0"
+      },
+      {
+        "name": "starlette",
+        "version": "1.10.0"
+      },
+      {
+        "name": "telegramify-markdown",
+        "version": "1.4.1"
+      },
+      {
+        "name": "tenacity",
+        "version": "9.1.4"
+      },
+      {
+        "name": "termcolor",
+        "version": "3.3.0"
+      },
+      {
+        "name": "tiktoken",
+        "version": "0.14.0"
+      },
+      {
+        "name": "tomlkit",
+        "version": "0.15.2"
+      },
+      {
+        "name": "truststore",
+        "version": "0.10.5"
+      },
+      {
+        "name": "typer",
+        "version": "0.27.3"
+      },
+      {
+        "name": "typing-inspection",
+        "version": "0.4.4"
+      },
+      {
+        "name": "typing_extensions",
+        "version": "4.16.0"
+      },
+      {
+        "name": "tzdata",
+        "version": "2026.5"
+      },
+      {
+        "name": "tzlocal",
+        "version": "5.4.5"
+      },
+      {
+        "name": "urllib3",
+        "version": "2.8.0"
+      },
+      {
+        "name": "uvicorn",
+        "version": "0.54.0"
+      },
+      {
+        "name": "watchfiles",
+        "version": "1.3.0"
+      },
+      {
+        "name": "wcwidth",
+        "version": "0.9.4"
+      },
+      {
+        "name": "websocket-client",
+        "version": "1.9.2"
+      },
+      {
+        "name": "websockets",
+        "version": "15.0.1"
+      },
+      {
+        "name": "wechatpy",
+        "version": "1.8.18"
+      },
+      {
+        "name": "Werkzeug",
+        "version": "3.1.9"
+      },
+      {
+        "name": "win32_setctime",
+        "version": "1.2.1"
+      },
+      {
+        "name": "wrapt",
+        "version": "2.5.1"
+      },
+      {
+        "name": "wsproto",
+        "version": "1.3.2"
+      },
+      {
+        "name": "xinference-client",
+        "version": "4.1.0"
+      },
+      {
+        "name": "xlrd",
+        "version": "2.0.2"
+      },
+      {
+        "name": "xmltodict",
+        "version": "1.0.4"
+      },
+      {
+        "name": "yarl",
+        "version": "1.25.1"
+      }
+    ]
+  }
+}
